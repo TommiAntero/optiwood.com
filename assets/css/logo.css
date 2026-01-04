@@ -1,0 +1,41 @@
+.site-logo {
+	border-bottom: none !important;
+	text-decoration: none !important;
+	display: inline-flex;
+	align-items: baseline;
+	gap: 0.55em;
+}
+
+.logo-img {
+	height: 22px;
+	width: auto;
+	display: inline-block;
+	vertical-align: middle;
+	filter: drop-shadow(0 1px 2px rgba(0,0,0,0.35));
+}
+
+.logo-fallback {
+	color: #fff;
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+}
+
+.logo-tagline {
+	color: rgba(255,255,255,0.75);
+	font-size: 0.75em;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+.hero-logo {
+	display: block;
+	margin: 0 auto 0.35em auto;
+	width: 260px;
+	max-width: 70vw;
+	height: auto;
+	filter: drop-shadow(0 2px 6px rgba(0,0,0,0.35));
+}
